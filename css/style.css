@@ -1,4 +1,4 @@
-body {
+.hero-area {
   background-color: #2E2346;
 }
 
@@ -7,6 +7,26 @@ body {
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
+  color: #ffffff;
+}
+
+.myName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+.myIntro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 0;
+  font-style: light;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.icons {
   color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+@use '../css/custom' as *;
+
+body{
+    background-color: $prycolor;
+}
+//nav section start
+.nav-link{
+    @include nav-typo;
+}
+//nav section end
+//hero section start
+// .myName{
+//     @include hero-bold-text;
+// }

@@ -1,0 +1,100 @@
+$prycolor: #2E2346;
+$seccolor: #FFFBFB;
+
+@mixin nav-typo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+@mixin hero-bold-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+}
+@mixin hero-light-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    color: #ffffff;
+}
+@mixin btn{
+    width: 261px;
+    height: 85.23px;
+    border-radius: 10px;
+    background-color: #FFFAFA;
+}
+@mixin btn-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+}
+@mixin img-1{
+    height: 503px;
+    width: 331px;
+    // left: 1302px;
+    // top: 184.5172119140625px;
+    border-radius: 27px;
+    background: url();
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+@mixin img-1{
+    height: 503px;
+    width: 331px;
+    // left: 1302px;
+    // top: 184.5172119140625px;
+    border-radius: 27px;
+    background: url();
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 27px
+
+}
+@mixin section-1{
+    height: 1098px;
+    width: 864px;
+    background: #ffffff;
+    // left: 8px;
+    // top: 725px;
+    border-radius: 0px;
+}
+@mixin section-1-1{
+    height: 1098px;
+    width: 864px;
+    background: #CDC5DF;
+    // left: 8px;
+    // top: 725px;
+    border-radius: 0px;
+}
+
+
+@mixin nav-items{
+    font-weight: 700;
+    font-size: 45px;
+    font-style: normal;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@mixin body-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #000000;
+  }
+@mixin img-2{
+    height: 503px;
+    width: 1096px;
+    // left: 324px;
+    // top: 1246px;
+    border-radius: 13px;
+    border: 1px solid #000000;
+
+}

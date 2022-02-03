@@ -32,8 +32,8 @@
 
 .aboutSection {
   height: 40rem;
-  background: url("../images/about.png");
-  height: 32.5rem;
+  background-color: #DAD6E3;
+  height: 29rem;
 }
 
 .about-header {
@@ -54,5 +54,6 @@
 
 .experience-bg {
   background-color: #2E2346;
+  height: 30rem;
 }
 /*# sourceMappingURL=style.css.map */

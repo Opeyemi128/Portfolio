@@ -24,8 +24,8 @@
 //about section start
 .aboutSection{
     @include section-1;
-    background: url('../images/about.png');
-    height: 32.5rem;
+    background-color: $tercolor;
+    height: 29rem;
 }
 // .aboutSection-sm{
 //     @include section-1;
@@ -40,4 +40,5 @@
 //about section end
 .experience-bg{
     background-color: $prycolor;
+    height: 30rem;
 }

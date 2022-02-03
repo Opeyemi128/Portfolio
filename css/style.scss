@@ -2,14 +2,13 @@
 
 .hero-area{
     background-color: $prycolor;
-    // background: url('../images/dark.jpg');
-    // background-repeat: no-repeat;
 }
 //nav section start
 .nav-link{
     @include nav-typo;
 }
 //nav section end
+
 //hero section start
 .myName{
     @include hero-bold-text;
@@ -20,4 +19,25 @@
 .icons{
     color: #ffffff;
 }
+//hero section end
 
+//about section start
+.aboutSection{
+    @include section-1;
+    background: url('../images/about.png');
+    height: 32.5rem;
+}
+// .aboutSection-sm{
+//     @include section-1;
+//     background: url('../images/about-sm.png');
+// }
+.about-header{
+    @include nav-text;
+}
+.about-text{
+    @include body-text;
+}
+//about section end
+.experience-bg{
+    background-color: $prycolor;
+}

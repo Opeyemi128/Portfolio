@@ -11,25 +11,23 @@ $seccolor: #FFFBFB;
 
 @mixin hero-bold-text{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
     font-size: 2.2rem;
     color: #ffffff;
 }
 @mixin hero-light-text{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 0;
-    font-style: light;
+    font-weight: 300;
+    font-style: normal;
     font-size: 1.2rem;
     color: #ffffff;
-    
 }
-
-@mixin hero-btn{
-    // width: 100px;
-    // height: 25px;
-    // border-radius: 10px;
-    // background-color: #FFFAFA;
+@mixin btn{
+    width: 261px;
+    height: 85.23px;
+    border-radius: 10px;
+    background-color: #FFFAFA;
 }
 @mixin btn-text{
   font-family: Arial, Helvetica, sans-serif;
@@ -59,38 +57,28 @@ $seccolor: #FFFBFB;
     border-radius: 27px
 
 }
+// @mixin section-1{
+//     height: 40rem;
+//     background: #ffffff;
+// }
 @mixin section-1{
-    height: 1098px;
-    width: 864px;
-    background: #ffffff;
-    // left: 8px;
-    // top: 725px;
-    border-radius: 0px;
+    height: 40rem;
+    // background: #CDC5DF;
 }
-@mixin section-1-1{
-    height: 1098px;
-    width: 864px;
-    background: #CDC5DF;
-    // left: 8px;
-    // top: 725px;
-    border-radius: 0px;
-}
-
-
-@mixin nav-items{
+@mixin nav-text{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 1rem;
     font-style: normal;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.02em;
 }
 @mixin body-text{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
     font-style: normal;
-    font-size: 30px;
+    font-size: 0.875rem;
     color: #000000;
-  }
+}
 @mixin img-2{
     height: 503px;
     width: 1096px;

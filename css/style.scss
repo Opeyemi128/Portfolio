@@ -2,7 +2,9 @@
 
 .hero-area{
     background-color: $prycolor;
+    height: 26rem;
 }
+
 //nav section start
 .nav-link{
     @include nav-typo;
@@ -22,11 +24,7 @@
 //hero section end
 
 //about section start
-.aboutSection{
-    @include section-1;
-    background-color: $tercolor;
-    
-}
+
 // .aboutSection-sm{
 //     @include section-1;
 //     background: url('../images/about-sm.png');
@@ -40,23 +38,36 @@
 //about section end
 
 //experience section start
-.experience-bg{
-    @include exp-section;
-    background-color: $tercolor;
-}
+// .experience-bg{
+//     @include exp-section;
+//     background-color: $tercolor;
+// }
 
-.experience-header{
-    @include nav-text;
-}
-.vl {
-    border-left: 1px solid black;
-    height: 16.875rem;
-  }
-.experience-text{
-    @include body-text;
-    font-weight: 700;
-}  
-.vl2{
-    border-left: 1px solid black;
-    height: 6.875rem;
-}
+// .experience-header{
+//     @include nav-text;
+// }
+// .vl {
+//     border-left: 1px solid black;
+//     height: 16.875rem;
+//   }
+// .experience-text{
+//     @include body-text;
+//     font-weight: 700;
+// }  
+// .vl2{
+//     border-left: 1px solid black;
+//     height: 6.875rem;
+// }
+//experience section end
+
+//tech section start
+// .tech-section{
+//     @include tech;
+// }
+// .vl3{
+//     border-left: 2px solid black;
+//     height: 12rem;
+// }
+// .tech-text{
+//     font-weight: 700;
+// }

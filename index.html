@@ -12,7 +12,6 @@
 <body>
 <div class="hero-area">
   <!-- nav section start -->
-        <div class="row">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="images/OB.png" class="w-50 h-50" alt=""></a>
@@ -40,44 +39,81 @@
               </div>
             </div>
           </nav>
-        </div>
-        <!-- nav section end -->
-
-        <!-- hero section start -->
-        <div class="container">
-          <div class="row">
-          <div class="col-md-7 col-sm-12 my-5 mx-5">
-            <h3 class="myName">Hi, I’m Opeyemi Bioku.</h3>
-            <p class="myIntro" >A Frontend Developer and UI Designer.</p>
-            <div class="icons">
-              <i class="bi bi-linkedin"></i>
-              <i class="bi bi-github mx-1"></i>
-              <i class="bi bi-instagram mx-1"></i>
-              <i class="bi bi-whatsapp mx-1"></i>
+          <!-- nav section end -->
+          <!-- hero section start -->
+        <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center pt-4">
+          <div class="col-md-6">
+            <div class="">
+              <div class="card-body mx-5">
+                <h5 class="card-title myName">Hi, I’m Opeyemi Bioku.</h5>
+                <p class="card-text myIntro">A Frontend Developer and UI Designer.</p>
+                <div class="icons">
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-github mx-1"></i>
+                  <i class="bi bi-instagram mx-1"></i>
+                  <i class="bi bi-whatsapp mx-1"></i>
+                  </div>
+                  <a href="#" class="btn btn-light mt-4">RESUME</a>
               </div>
-            <button type="button" class="btn btn-light mt-3">RESUME</button>
+            </div>
           </div>
-          <div class="col-md-5 h-25 w-25 my-3 d-none d-sm-none d-md-block">
-            <a href=""><img src="images/ope.png" alt=""></a>
-          </div>
+          <div class="col-md-4">
+            <div class="">
+              <img src="images/ope.png" class="card-img-top w-50 h-50 d-none d-sm-none d-md-block d-lg-block" alt="...">
+            </div>
           </div>
         </div>
-        <!-- hero section end -->
         </div>
+         <!-- hero section end -->
+
         <!-- about section start -->
-        <div class="row aboutSection">
-          <div class="container col-sm-10 col-md-12xaboutSection">
-            <h4 class="about-header text-center pt-4 mx-auto" >About</h4>
-          <p class="about-text text-center">A Frontend Developer, proficient in combining design and programming to build interactive websites from concept through deployment in a responsive, mobile-first approach. I have developed my skills in frontend technologies and developing well-documented, reusable code. A dedicated and creative individual with excellent interpersonal and communication skills who is committed to problem-solving in achieving the best result.
-          </p>
-            <img src="images/image1.png" class="d-none d-sm-none d-md-block d-lg-block w-100 h-50 py-4" alt="">
-            <div class="d-flex justify-content-center"><img src="images/ope.png" class="d-md-none d-lg-none d-sm-block " alt=""></div>
+        <div class="card text-center aboutSection">
+          <div class="card-body">
+            <h5 class="card-title">About</h5>
+            <p class="card-text">A Frontend Developer, proficient in combining design and programming to build interactive websites from concept through deployment in a responsive, mobile-first approach. I have developed my skills in frontend technologies and developing well-documented, reusable code. A dedicated and creative individual with excellent interpersonal and communication skills who is committed to problem-solving in achieving the best result.</p>
+            <div class="d-flex justify-content-center"><img src="images/image1.png" class="card-img-top w-50 h-25 d-none d-sm-none d-md-block d-lg-block" alt="...">
+            </div>
+            <div class="d-flex justify-content-center"><img src="images/ope.png" class="card-img-top w-50 h-25 d-md-none d-lg-none d-sm-block" alt="...">
+            </div>
           </div>
-        </div>
+        
         <!-- about section end -->
 
         <!-- experience section start -->
-        
+        <div class="row">
+          <div class="experience-bg col-md-6 col-sm-12">
+          <p class="experience-header ms-5 pt-5">EXPERIENCE</p>
+          <div class="vl ms-5">
+            <p class="experience-text ms-4 my-0">Frontend Developer</p>
+            <p class="experience-text ms-4 my-0">(8thGear Partners Limited, Lagos, Nigeria.)</p>
+            <p class="experience-text ms-4">April 2021 - Present</p>
+            <ul class="list-group list-group-flush">
+              <li class="ms-5">Develop and maintain functional and interactive websites  using frontend technologies.</li>
+              <li class="ms-5 pt-1">Work closely with designers and developers to meet project requirements, fix bugs and implement new features.</li>
+              <li class="ms-5  pt-1">Manage and update existing websites to improve user experience and web functionality. </li>
+              <li class="ms-5 pt-1">Optimize website performance using modern web standards and design. </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-bg col-md-6 col-sm-12">
+          <p class="experience-header ms-5 pt-5">CERTIFICATIONS</p>
+          <div class="vl2 ms-5">
+            
+            <!-- <p class="experience-text ms-4 my-0">Frontend Developer</p>
+            <p class="experience-text ms-4 my-0">(8thGear Partners Limited, Lagos, Nigeria.)</p>
+            <p class="experience-text ms-4">April 2021 - Present</p> -->
+            <ul class="list-group list-group-flush">
+              <li class="ms-5">B.Tech Science Laboratory Technology, LAUTECH (2019).</li>
+              <li class="ms-5 pt-1">NYSC discharge certificate (March,9 2021).</li>
+              <li class="ms-5 pt-1">Programming Foundations: Fundamentals, LinkedIn (Dec, 2020).</li>
+              <li class="ms-5 pt-1">Jobberman Soft-Skills Training (March 2021).</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+
+        <!-- experience section end -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

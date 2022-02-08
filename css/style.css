@@ -1,5 +1,6 @@
 .hero-area {
   background-color: #2E2346;
+  height: 26rem;
 }
 
 .nav-link {
@@ -33,7 +34,7 @@
 .aboutSection {
   height: 40rem;
   background-color: #DAD6E3;
-  height: 29rem;
+  height: 32rem;
 }
 
 .about-header {
@@ -53,7 +54,34 @@
 }
 
 .experience-bg {
-  background-color: #2E2346;
+  background-color: #FFFBFB;
   height: 30rem;
+}
+
+.experience-header {
+  font-weight: 700;
+  font-size: 1rem;
+  font-style: normal;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 16.875rem;
+}
+
+.experience-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 0.875rem;
+  color: #000000;
+  font-weight: 700;
+}
+
+.vl2 {
+  border-left: 1px solid black;
+  height: 6.875rem;
 }
 /*# sourceMappingURL=style.css.map */

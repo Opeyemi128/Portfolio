@@ -2,6 +2,7 @@
 
 .hero-area{
     background-color: $prycolor;
+    height: 26rem;
 }
 //nav section start
 .nav-link{
@@ -25,7 +26,7 @@
 .aboutSection{
     @include section-1;
     background-color: $tercolor;
-    height: 29rem;
+    height: 32rem;
 }
 // .aboutSection-sm{
 //     @include section-1;
@@ -38,7 +39,25 @@
     @include body-text;
 }
 //about section end
+
+//experience section start
 .experience-bg{
-    background-color: $prycolor;
+    background-color: $seccolor;
     height: 30rem;
 }
+.experience-header{
+        @include nav-text;
+    }
+    .vl {
+        border-left: 1px solid black;
+        height: 16.875rem;
+      }
+    .experience-text{
+        @include body-text;
+        font-weight: 700;
+    }  
+    .vl2{
+        border-left: 1px solid black;
+        height: 6.875rem;
+    }
+//experience section end

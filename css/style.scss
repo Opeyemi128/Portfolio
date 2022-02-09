@@ -24,11 +24,10 @@
 //hero section end
 
 //about section start
-
-// .aboutSection-sm{
-//     @include section-1;
-//     background: url('../images/about-sm.png');
-// }
+.aboutSection{
+    background-color: $tercolor;
+    height: 28rem;
+}
 .about-header{
     @include nav-text;
 }

@@ -37,36 +37,54 @@
 //about section end
 
 //experience section start
-// .experience-bg{
-//     @include exp-section;
-//     background-color: $tercolor;
-// }
+.experience-bg{
+    @include exp-section;
+    background-color: $tercolor;
+}
 
-// .experience-header{
-//     @include nav-text;
-// }
+.experience-header{
+    @include nav-text;
+}
 // .vl {
 //     border-left: 1px solid black;
 //     height: 16.875rem;
 //   }
-// .experience-text{
-//     @include body-text;
-//     font-weight: 700;
-// }  
+.experience-text{
+    @include body-text;
+    font-weight: 700;
+} 
+.experience-sub-text{
+    @include body-text;
+}   
+
 // .vl2{
 //     border-left: 1px solid black;
-//     height: 6.875rem;
+//     height: 11.875rem;
 // }
 //experience section end
 
 //tech section start
-// .tech-section{
-//     @include tech;
-// }
-// .vl3{
-//     border-left: 2px solid black;
-//     height: 12rem;
-// }
-// .tech-text{
-//     font-weight: 700;
-// }
+.tech-section{
+    @include tech;
+}
+.vl3{
+    border-left: 2px solid black;
+    height: 12rem;
+}
+.tech-text{
+    font-weight: 700;
+}
+//tech section end
+
+//portfolio start
+.portfolio{
+    background-color: #FCF9F9;
+    height: 32rem;
+}
+//portfolio start
+
+//footer start
+.portFooter{
+    background-color: $prycolor;
+    height: 16rem;
+}

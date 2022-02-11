@@ -13,7 +13,7 @@
   <div class="hero-area">
     <!-- nav section start -->
     <div class="row">
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="images/OB.png" class="w-50 h-50" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,16 +25,16 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="#">Experience</a>
+                <a class="nav-link" href="#experience">Experience</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -51,12 +51,13 @@
                   <h5 class="card-title myName">Hi, I’m Opeyemi Bioku.</h5>
                   <p class="card-text myIntro">A Frontend Developer and UI Designer.</p>
                   <div class="icons">
-                    <i class="bi bi-linkedin"></i>
-                    <i class="bi bi-github mx-1"></i>
-                    <i class="bi bi-instagram mx-1"></i>
-                    <i class="bi bi-whatsapp mx-1"></i>
+                    <a href="www.linkedin.com/in/opeyemi-bioku" class=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/Opeyemi128"><i class="bi bi-github mx-1"></i></a>
+                    <a href="https://twitter.com/therealayobami?t=8Vu5Q5UxVDUpRNA7yyaAbg&s=09"><i class="bi bi-twitter mx-1"></i></a>
+                    <a href="wa.me/2348129593326"><i class="bi bi-whatsapp mx-1"></i></a>
                   </div>
-                    <a href="#" class="btn btn-light mt-3">RESUME</a>
+                    <a href="https://docs.google.com/document/d/1V6SxDkaX2RIHTCVkLT_osn_ZV_3Z0ApZ/edit?usp=sharing&ouid=118144934130455461753&rtpof=true&sd=true" class="btn btn-light mt-3">RESUME</a>
+                    
                 </div>
             </div>
             <div class="col-md-5 h-25 w-25 my-3 d-none d-sm-none d-md-block">
@@ -68,63 +69,115 @@
 
           <!-- about section start -->
 
-        <div class="text-center">
+        <div class="text-center" id="about">
           <div class="card-body aboutSection">
-            <h5 class="card-title about-header">About</h5>
+            <h5 class="card-title about-header ">About</h5>
             <p class="card-text about-text">A Frontend Developer, proficient in combining design and programming to build interactive websites from concept through deployment in a responsive, mobile-first approach. I have developed my skills in frontend technologies and developing well-documented, reusable code. A dedicated and creative individual with excellent interpersonal and communication skills who is committed to problem-solving in achieving the best result.</p>
             <div class="text-center mb-3 mb-4">
               <img src="images/image1.png" class="mx-auto card-img-top w-50 h-50 d-none d-sm-none d-md-block d-lg-block" alt="...">
               <img src="images/ope.png" class="d-md-none d-lg-none d-sm-block " alt="">
           </div>
           </div>
+          </div>
           
         <!-- about section end -->
 
         <!-- experience section start -->
-        <!-- <div class="row">
-          <div class="experience-bg col-md-6 col-sm-12">
-          <p class="experience-header ms-5 pt-5">EXPERIENCE</p>
-          <div class="vl ms-5">
-            <p class="experience-text ms-4 my-0">Frontend Developer</p>
-            <p class="experience-text ms-4 my-0">(8thGear Partners Limited, Lagos, Nigeria.)</p>
-            <p class="experience-text ms-4">April 2021 - Present</p>
-            <ul class="list-group list-group-flush">
-              <li class="ms-5">Develop and maintain functional and interactive websites  using frontend technologies.</li>
-              <li class="ms-5 pt-1">Work closely with designers and developers to meet project requirements, fix bugs and implement new features.</li>
-              <li class="ms-5  pt-1">Manage and update existing websites to improve user experience and web functionality. </li>
-              <li class="ms-5 pt-1">Optimize website performance using modern web standards and design. </li>
-            </ul>
+        <div class="row mt-5 ms-4" id="experience">
+          <div class="col-sm-6">
+            <div class="">
+              <div class="card-body">
+                <h5 class="card-title experience-header">EXPERIENCE</h5>
+                <p class="card-text experience-text">Frontend Developer</p>
+                <p class="card-text experience-text">(8thGear Partners Limited, Lagos, Nigeria.)</p>
+                <p class="card-text experience-text">April 2021 - Present</p>
+                <!-- <div class="vl ms-5"></div> -->
+                <ul class="list-group list-group-flush experience-sub-text">
+                  <li class="ms-5">Develop and maintain functional and interactive websites  using frontend technologies.</li>
+                  <li class="ms-5 pt-1">Work closely with designers and developers to meet project requirements, fix bugs and implement new features.</li>
+                  <li class="ms-5  pt-1">Manage and update existing websites to improve user experience and web functionality. </li>
+                  <li class="ms-5 pt-1">Optimize website performance using modern web standards and design. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="">
+              <div class="card-body">
+                <h5 class="card-title experience-header">CERTIFICATIONS</h5>
+                <ul class="list-group list-group-flush experience-sub-text">
+                  <li class="ms-5">B.Tech Science Laboratory Technology, LAUTECH (2019).</li>
+                  <li class="ms-5 pt-1">NYSC discharge certificate (March,9 2021).</li>
+                  <li class="ms-5 pt-1">Programming Foundations: Fundamentals, LinkedIn (Dec, 2020).</li>
+                  <li class="ms-5 pt-1">Jobberman Soft-Skills Training (March 2021).</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="experience-bg col-md-6 col-sm-12">
-          <p class="experience-header ms-5 pt-5">CERTIFICATIONS</p>
-          <div class="vl2 ms-5"> 
-            
-             <p class="experience-text ms-4 my-0">Frontend Developer</p>
-            <p class="experience-text ms-4 my-0">(8thGear Partners Limited, Lagos, Nigeria.)</p>
-            <p class="experience-text ms-4">April 2021 - Present</p>
-            <ul class="list-group list-group-flush">
-              <li class="ms-5">B.Tech Science Laboratory Technology, LAUTECH (2019).</li>
-              <li class="ms-5 pt-1">NYSC discharge certificate (March,9 2021).</li>
-              <li class="ms-5 pt-1">Programming Foundations: Fundamentals, LinkedIn (Dec, 2020).</li>
-              <li class="ms-5 pt-1">Jobberman Soft-Skills Training (March 2021).</li>
-            </ul>
-          </div>
-        </div>
-        </div>  -->
+      
         <!-- experience section end -->
 
         <!-- tech section start -->
-        <!-- <div class="row justify-content-center pt-4">
+        <div class="row justify-content-center pt-4 mt-5">
           <div class="tech-section text-center col-md-8">
               <p class="tech-text mt-5">Technologies & Dev Tools</p>
               <div class="d-flex justify-content-center pt-5">
                 <img src="images/tech.png" alt="">
               </div>
-        </div> -->
+        </div>
+        </div>
         <!-- tech section end -->
 
+        <!-- my works section start -->
+        <!-- <div class="portfolio mt-5">
+        <div class="text-center">
+          <div class="card-body">
+            <h5 class="card-title about-header mt-2">Portfolio</h5>
+          </div>
+          </div>
+        <div class="card-group mt-3 g-3">
+          <div class="card">
+            <img src="images/figma.jpg" class="card-img-top ms-5 me-5" alt="...">
+          </div>
+          <div class="card">
+            <img src="images/figma.jpg" class="card-img-top ms-5 me-5" alt="...">
+          </div>
+          <div class="card">
+            <img src="images/figma.jpg" class="card-img-top ms-5 me-5" alt="...">
+          </div>
+        </div>
+        </div> -->
+        <!-- my works section end -->
+
+        <!-- footer start -->
+        
+        <div class="card portFooter w-100 mt-5" id="contact">
+          <div class="card-body w-25 mx-auto mt-3 d-md-block d-lg-block d-none d-sm-none" style="background-color: white;">
+            <p class="card-text ms-0">Email: <a href="mailto:opeyemibioku@gmail.com" class="text-decoration-none">opeyemibioku@gmail.com</a></p>
+            <p class="card-text">Contact: <a href="tel:+2348129593326" class="text-decoration-none">+2348129593326</a></p>
+            <p class="card-text">Location: Lagos, Nigeria.</p>
+          </div>
+          <div class="card-body w-75 mx-auto mt-3 d-md-none d-lg-none d-sm-block" style="background-color: white;">
+            <p class="card-text ms-0">Email: <a href="mailto:opeyemibioku@gmail.com" class="text-decoration-none">opeyemibioku@gmail.com</a></p>
+            <p class="card-text">Contact: <a href="tel:+2348129593326" class="text-decoration-none">+2348129593326</a></p>
+            <p class="card-text">Location: Lagos, Nigeria.</p>
+          </div>
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a class="navbar-brand" href="#"><img src="images/OB.png" class="" alt=""></a>
+              <span class="text-muted">&copy; Copyright 2022</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-muted" href="www.linkedin.com/in/opeyemi-bioku"><i class="bi bi-linkedin"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="https://github.com/Opeyemi128"><i class="bi bi-github"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="https://twitter.com/therealayobami?t=8Vu5Q5UxVDUpRNA7yyaAbg&s=09"><i class="bi bi-twitter"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="wa.me/2348129593326"><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+          </footer>
+        </div>
+      </div>
         
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

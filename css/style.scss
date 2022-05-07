@@ -1,61 +1,101 @@
-@use '../css/custom' as *;
+@use "../css/custom" as *;
 
-.hero-area{
-    background-color: $prycolor;
-    // height: 26rem;
+* {
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.75rem;
+  }
+}
+
+.hero-area {
+  background-color: $prycolor;
+  // height: 26rem;
 }
 
 //nav section start
-.nav-link{
-    @include nav-typo;
+.nav-link {
+  @include nav-typo;
 }
 //nav section end
 
 //hero section start
-.myName{
-    @include hero-bold-text;
+.myName {
+  @include hero-bold-text;
 }
-.myIntro{
-    @include hero-light-text;
+.myIntro {
+  @include hero-light-text;
 }
-.iconss{
-    color: #ffffff;
+.iconss {
+  color: #ffffff;
 }
 //hero section end
 
 //about section start
-.aboutSection{
-    background-color: $tercolor;
-    
+.aboutSection {
+  background-color: $tercolor;
 }
-.about-header{
-    @include nav-text;
+.about-header {
+  @include nav-text;
 }
-.about-text{
-    @include body-text;
+.about-text {
+  @include body-text;
 }
 //about section end
 
 //experience section start
-.experience-bg{
-    @include exp-section;
-    background-color: $tercolor;
+.experience-bg {
+  @include exp-section;
+  background-color: $tercolor;
 }
 
-.experience-header{
-    @include nav-text;
+.experience-header {
+  @include nav-text;
 }
 // .vl {
 //     border-left: 1px solid black;
 //     height: 16.875rem;
 //   }
-.experience-text{
-    @include body-text;
-    font-weight: 700;
-} 
-.experience-sub-text{
-    @include body-text;
-}   
+.experience-text {
+  @include body-text;
+  font-weight: 700;
+}
+.experience-sub-text {
+  @include body-text;
+}
 
 // .vl2{
 //     border-left: 1px solid black;
@@ -64,27 +104,34 @@
 //experience section end
 
 //tech section start
-.tech-section{
-    @include tech;
+.tech-section {
+  @include tech;
 }
-.vl3{
-    border-left: 2px solid black;
-    height: 12rem;
+.vl3 {
+  border-left: 2px solid black;
+  height: 12rem;
 }
-.tech-text{
-    font-weight: 700;
+.tech-text {
+  font-weight: 700;
 }
 //tech section end
 
 //portfolio start
-.portfolio{
-    background-color: #FCF9F9;
-    // height: 32rem;
+// .myworksImage {
+//   opacity: 0.6;
+// }
+.myworks {
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+  // border-radius: 27px;
+}
+.portfolio {
+  background-color: #fcf9f9;
+  // height: 32rem;
 }
 //portfolio start
 
 //footer start
-.portFooter{
-    background-color: $prycolor;
-    height: 16rem;
+.portFooter {
+  background-color: $prycolor;
+  height: 16rem;
 }

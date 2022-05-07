@@ -1,5 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--white);
+}
+body h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+body h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+body h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+body h5 {
+  font-weight: 500;
+}
+body p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.75rem;
+}
+
 .hero-area {
-  background-color: #2E2346;
+  background-color: #2e2346;
 }
 
 .nav-link {
@@ -31,7 +67,7 @@
 }
 
 .aboutSection {
-  background-color: #DAD6E3;
+  background-color: #dad6e3;
 }
 
 .about-header {
@@ -52,7 +88,7 @@
 
 .experience-bg {
   height: 20rem;
-  background-color: #DAD6E3;
+  background-color: #dad6e3;
 }
 
 .experience-header {
@@ -80,7 +116,7 @@
 }
 
 .tech-section {
-  background: #ECE8E8;
+  background: #ece8e8;
   box-shadow: 0px 4px 40px 8px rgba(0, 0, 0, 0.25);
   height: 31.25rem;
   font-size: 1.25rem;
@@ -95,12 +131,16 @@
   font-weight: 700;
 }
 
+.myworks {
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
 .portfolio {
-  background-color: #FCF9F9;
+  background-color: #fcf9f9;
 }
 
 .portFooter {
-  background-color: #2E2346;
+  background-color: #2e2346;
   height: 16rem;
 }
 /*# sourceMappingURL=style.css.map */

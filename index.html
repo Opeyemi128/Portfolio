@@ -62,7 +62,7 @@
                 <li class="nav-item mx-3">
                   <a class="nav-link" href="#myworks">My Works</a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item mx-3">
                   <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
@@ -74,11 +74,18 @@
 
       <!-- hero section start -->
       <div class="row justify-content-center g-0">
-        <div class="col-md-6 col-sm-10 my-4">
-          <div class="card-body mx-sm-4">
-            <h2 class="card-title myName">
+        <div class="col-lg-6 col-md-7 col-sm-10 my-lg-5 my-md-5 my-sm-3">
+          <div class="card-body">
+            <h2
+              class="card-title myName d-xl-block d-lg-block d-md-none d-sm-none d-none"
+            >
               Hi, I’m Opeyemi Bioku. A Frontend Developer and UI Designer.
             </h2>
+            <h3
+              class="card-title myName d-block d-sm-block d-md-block d-lg-none d-xl-none"
+            >
+              Hi, I’m Opeyemi Bioku. A Frontend Developer and UI Designer.
+            </h3>
             <div class="icons">
               <a href="https://www.linkedin.com/in/opeyemi-bioku" class="iconss"
                 ><i class="bi bi-linkedin"></i
@@ -102,7 +109,9 @@
             >
           </div>
         </div>
-        <div class="col-md-6 h-25 w-25 my-3 d-none d-sm-none d-md-block">
+        <div
+          class="col-lg-6 col-md-4 h-25 w-25 my-3 d-none d-sm-none d-md-block"
+        >
           <a href=""><img src="images/ope.png" alt="" /></a>
         </div>
       </div>
@@ -110,27 +119,24 @@
     <!-- hero section end -->
 
     <!-- about section start -->
-    <div class="container" id="about">
-      <div class="row g-0">
-        <h5 class="card-title about-header mt-5 text-center">About</h5>
-        <div class="col-lg-7 col-md-12 col-sm-12">
-          <div class="">
-            <div class="card-body py-4">
-              <p class="card-text">
-                A Frontend Developer, proficient in combining design and
-                programming to build interactive user interface from concept
-                through deployment in a responsive, mobile-first approach. I
-                have developed my skills in frontend technologies and developing
-                well-documented, reusable code. A dedicated and creative
-                individual with excellent interpersonal and communication skills
-                who is committed to problem-solving in achieving the best
-                result.
-              </p>
-            </div>
+    <div class="container-fluid" id="about">
+      <div class="row g-0 d-flex justify-content-center">
+        <h3 class="card-title about-header mt-4 text-center">About</h3>
+        <div class="col-lg-7 col-md-12 col-sm-12 mt-lg-4">
+          <div class="card-body">
+            <p class="card-text about-text">
+              A Frontend Developer, proficient in combining design and
+              programming to build interactive user interface from concept
+              through deployment in a responsive, mobile-first approach. I have
+              developed my skills in frontend technologies and developing
+              well-documented, reusable code. A dedicated and creative
+              individual with excellent interpersonal and communication skills
+              who is committed to problem-solving in achieving the best result.
+            </p>
           </div>
         </div>
-        <div class="col-lg-5 col-md-10 col-sm-12">
-          <div class="ms-5">
+        <div class="col-lg-4 col-md-7 col-sm-12">
+          <div class="ms-5 pt-2">
             <img src="images/webdev.png" class="card-img-top" alt="..." />
           </div>
         </div>
@@ -140,13 +146,14 @@
     <!-- about section end -->
 
     <!-- experience section start -->
-    <div class="row mt-5 ms-4 g-0 aboutSection" id="experience">
+    <div class="container-fluid"></div>
+    <div class="row mt-5 p-4 g-0 aboutSection" id="experience">
       <div class="col-sm-6">
         <div class="">
           <div class="card-body">
-            <h5 class="card-title experience-header">EXPERIENCE</h5>
+            <h5 class="card-title experience-text">EXPERIENCE</h5>
             <p class="card-text experience-text">Frontend Developer</p>
-            <p class="card-text experience-text">
+            <p class="card-text experience-header">
               (8thGear Partners Limited, Lagos, Nigeria.)
             </p>
             <p class="card-text experience-text">April 2021 - Present</p>
@@ -175,7 +182,7 @@
       <div class="col-sm-6">
         <div class="">
           <div class="card-body">
-            <h5 class="card-title experience-header">CERTIFICATIONS</h5>
+            <h5 class="card-title experience-text">CERTIFICATIONS</h5>
             <ul class="list-group list-group-flush experience-sub-text">
               <li class="ms-5">
                 B.Tech Science Laboratory Technology, LAUTECH (2019).
@@ -198,9 +205,9 @@
     <!-- experience section end -->
 
     <!-- tech section start -->
-    <div class="row justify-content-center pt-4 mt-5 mb-5 g-0">
+    <div class="row justify-content-center pt-4 mt-5 mb-2 g-0">
       <div class="tech-section text-center col-md-8">
-        <p class="tech-text mt-5">Technologies & Dev Tools</p>
+        <h3 class="tech-text mt-5">Technologies & Dev Tools</h3>
         <div class="d-flex justify-content-center pt-4">
           <img src="images/tech1.png" alt="" />
         </div>
@@ -211,7 +218,7 @@
     <!-- my works section start -->
     <div class="container pt-3" id="myworks">
       <div class="row">
-        <h5 class="card-title about-header my-5 text-center">My works</h5>
+        <h3 class="card-title about-header my-5 text-center">My works</h3>
         <div class="col-lg-6 col-md-6 col-sm-12 mb-5 px-5">
           <div class="card myworks">
             <img
@@ -221,7 +228,9 @@
             />
             <div class="card-body">
               <h6 class="card-title">E-Learning Providers</h6>
-              <a href="https://innkeeper.work/" class="myworksBtn">View Site</a>
+              <a href="https://innkeeper.work/" class="myworksBtn"
+                ><b>View Site</b></a
+              >
             </div>
           </div>
         </div>
@@ -237,7 +246,9 @@
                 Venture Studio [Growth as a Service, Managed Services, Talent
                 Pipeline Services]
               </h6>
-              <a href="https://www.8thgearpartners.com/" class="">View Site</a>
+              <a href="https://www.8thgearpartners.com/" class=""
+                ><b>View Site</b></a
+              >
             </div>
           </div>
         </div>
@@ -255,12 +266,12 @@
               <a
                 href="https://www.figma.com/proto/zIh8hzyXO78PprdNNfW3pg/Haven-website-design?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2"
                 class=""
-                >View Site</a
+                ><b>View Site</b></a
               >
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 my-5 px-5">
+        <div class="col-lg-6 col-md-6 col-sm-12 mb-5 mt-lg-5 mt-md-5 px-5">
           <div class="card myworks">
             <img
               src="images/myportfolio3.jpg"
@@ -270,7 +281,7 @@
             <div class="card-body">
               <h6 class="card-title">My Portfolio Website</h6>
               <a href="https://opeyemibioku.github.io/Portfolio/" class=""
-                >View Site</a
+                ><b>View Site</b></a
               >
             </div>
           </div>
@@ -283,7 +294,7 @@
 
     <div class="card portFooter w-100" id="contact">
       <div
-        class="card-body w-25 mx-auto mt-3 d-md-block d-lg-block d-none d-sm-none rounded"
+        class="card-body w-25 mx-auto mt-3 d-md-none d-lg-block d-xl-block d-none d-sm-none rounded"
         style="background-color: white"
       >
         <p class="card-text ms-0">
@@ -301,7 +312,25 @@
         <p class="card-text">Location: Lagos, Nigeria.</p>
       </div>
       <div
-        class="card-body w-75 mx-auto mt-3 d-md-none d-lg-none d-sm-block rounded"
+        class="card-body w-50 mx-auto mt-3 d-md-block d-lg-none d-xl-none d-none d-sm-none rounded"
+        style="background-color: white"
+      >
+        <p class="card-text ms-0">
+          Email:
+          <a href="mailto:opeyemibioku@gmail.com" class="text-decoration-none"
+            >opeyemibioku@gmail.com</a
+          >
+        </p>
+        <p class="card-text">
+          Contact:
+          <a href="tel:+2348129593326" class="text-decoration-none"
+            >+2348129593326</a
+          >
+        </p>
+        <p class="card-text">Location: Lagos, Nigeria.</p>
+      </div>
+      <div
+        class="card-body w-75 mx-auto mt-3 d-md-none d-xl-none d-lg-none d-sm-block d-block rounded"
         style="background-color: white"
       >
         <p class="card-text ms-0">

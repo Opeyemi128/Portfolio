@@ -54,7 +54,7 @@ body {
 
 //hero section start
 .myName {
-  @include hero-bold-text;
+  @include hero-light-text;
 }
 .myIntro {
   @include hero-light-text;

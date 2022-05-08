@@ -34,6 +34,21 @@ body p {
   line-height: 1.75rem;
 }
 
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:hover {
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  background-color: #2e2346;
+}
+
+.btn-light:hover {
+  color: #ffffff;
+}
+
 .hero-area {
   background-color: #2e2346;
 }

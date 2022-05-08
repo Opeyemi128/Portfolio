@@ -40,6 +40,18 @@ body {
     line-height: 1.75rem;
   }
 }
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn:hover {
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  background-color: $prycolor;
+}
+.btn-light:hover {
+  color: #ffffff;
+}
 
 .hero-area {
   background-color: $prycolor;

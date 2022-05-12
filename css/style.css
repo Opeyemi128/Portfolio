@@ -50,7 +50,7 @@ body p {
 }
 
 .hero-area {
-  background-color: #2e2346;
+  background: linear-gradient(350.04deg, #76569f 1.51%, rgba(255, 255, 255, 0) 79.75%);
 }
 
 .nav-link {

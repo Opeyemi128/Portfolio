@@ -54,7 +54,11 @@ body {
 }
 
 .hero-area {
-  background-color: $prycolor;
+  background: linear-gradient(
+    350.04deg,
+    #76569f 1.51%,
+    rgba(255, 255, 255, 0) 79.75%
+  );
   // height: 26rem;
 }
 
